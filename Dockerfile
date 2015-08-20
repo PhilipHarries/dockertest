@@ -1,5 +1,5 @@
 FROM perl:latest
-COPY hi.pl
+COPY hi.pl /
 CMD["perl","hi.pl"]
 
 #RUN echo "built with docker" > /build.info
